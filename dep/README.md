@@ -11,3 +11,4 @@ $ docker build -t
 
 ## License
 
+This project is released under the MIT license. See [LICENSE](https://github.com/jhsc/docker-golang-tools/blob/master/LICENSE) for more details.
