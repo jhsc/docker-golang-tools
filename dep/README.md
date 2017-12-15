@@ -6,7 +6,13 @@ Golang docker image with Dep package Management.
 ### Build the image
 To create the image `creativebit/go-dep`, execute the following command.
 ```
-$ docker build -t
+$ docker build -t creativebit/go-dep 1.x/
+```
+### Run the image
+To run the image:
+```
+$ docker run --rm creativebit/go-dep --help
+$ docker run --rm -v $GOPATH/src:/go/src -w /go/src/github.com/your-account/project creativebit/go-dep ensure
 ```
 
 ## License
