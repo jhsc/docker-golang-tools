@@ -1,6 +1,6 @@
 # Golang + dep
 
-Golang docker image with Dep package Management.
+Golang docker image with Dep Package Management.
 
 ## Usage
 ### Build the image
